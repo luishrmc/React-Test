@@ -1,0 +1,39 @@
+.Card{
+    flex: 1; /* Aumentar o tamanhado do Card */
+
+    margin: 20px;
+    border: 3px solid #000; /* Definindo a borda */
+    border-radius: 10px;
+    background-color: #fff;
+
+
+    overflow: hidden; /* Configuração para deixar mais estético */
+
+    display: flex; /* Padrão de apresentação de cada container interno */
+
+    flex-direction: column; /* Direcionar essa apresentação como sendo cada container interno em uma coluna */
+    
+    min-width: 300px; /* Informar um tamanho mínimo para a apresentação de cada container de modo em que quando a pagina diminuir haverá a quebra de linha */
+}
+
+.Card .Footer { /*Os espaços fazem parte da sintaxe */
+                /* Característica de cada div */
+
+
+    /* As características desse arquivo são default. É possível definir outras configurações pelas chaves 
+       Como por exemplo o background-color*/
+
+    background-color: #000;
+    color: #fff;
+    padding: 5px 0px;
+    
+}
+
+.Card .Conteudo{ /*Os espaços fazem parte da sintaxe */
+
+    /* Característica de cada div */
+    
+    color: #000;
+    padding: 15px 0px;
+    flex: 1; /* Aumentar o tamanho do conteúdo */
+}

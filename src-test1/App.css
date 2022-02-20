@@ -1,0 +1,11 @@
+.App{
+    display: flex; /* Padrão de apresentação de cada container interno */
+    flex-wrap: column;
+
+}
+
+.Cards{
+
+    display: flex;
+    flex-wrap: wrap; /* Definindo quebra de linha qundo o tamanha da página diminui */
+}

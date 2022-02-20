@@ -1,0 +1,11 @@
+.App{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+
+  color: #000;
+
+  font-weight: 300;
+  font-size: 1.4rem;
+}
+
